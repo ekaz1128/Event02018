@@ -1,0 +1,14 @@
+body,h1 {font-family: "Raleway", sans-serif}
+body, html {height: 100%}
+.background {
+    background-image: url('q1background.jpg');
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+h1{
+  font-weight : 900;
+}
+ul{
+  list-style : none;
+}

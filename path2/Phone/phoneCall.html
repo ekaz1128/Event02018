@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<title>Working Title</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<style>
+body,h1 {font-family: "Raleway", sans-serif}
+body, html {height: 100%}
+.background {
+    background-image: url('phoneCallImage.png');
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+</style>
+<body>
+
+<div class="background w3-display-container w3-animate-opacity w3-text-white">
+  
+  <div class="w3-display-middle">
+      <h3>While taking out your phone, 
+      you receive a call from an unknown number.</h3>
+    <ul>
+      <li>
+        <a href = "answerCall.html">Answer the call</a>
+      </li>
+      <li onClick="navigate()"><u>Decline the call</u></li>
+     
+    </ul>        
+  </div>
+
+  
+</div>
+  <script>
+    function choice(array) {
+      return array[Math.floor(Math.random() * array.length)]
+    }
+    function navigate() {
+      window.location.href = choice(["../../path1/q3.html", 'getCaught.html'])
+    }
+  </script>
+
+</body>
+</html>
